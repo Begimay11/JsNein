@@ -1,6 +1,6 @@
 export const Expenses = (props)=> {
     // const el = props.list
-    return <div style={{border: '1px solid',width: '400px',display: 'flex',justifyContent: 'space-around',padding: '10px'}}>
+    return <div style={{border: '1px solid',width: '400px',display: 'flex',justifyContent: 'space-around',padding: '15px'}}>
         <div>{props.title}</div>
         <div>{props.price}</div>
         {/* <div>{props.id}</div> */}
